@@ -3,7 +3,7 @@
     font font-family: sans-serif;
 }
 
-.niggabar {
+.bar {
     width: 100%;
     margin: auto;
     padding: 20px 0;
@@ -20,7 +20,7 @@
     
 }
 
-.niggabar ul li {
+.bar ul li {
     list-style: none;
     display: inline-block;
     margin: 30px;
@@ -28,7 +28,7 @@
     
 }
 
-.niggabar ul li::after {
+.bar ul li::after {
     content: "";
     position: absolute;
     background-color: white;
@@ -39,7 +39,7 @@
     transition: 0.3s;
 }
 
-.niggabar ul li:hover::after {
+.bar ul li:hover::after {
     width: 100%;
     
     
@@ -48,12 +48,12 @@
     
     
 }
-.niggabar ul li a {
+.bar ul li a {
     text-decoration: none; 
     color: white;
 }
 
-.niggaintro {
+.intro {
     color: white;
     width: 100%;
     position: absolute;
@@ -63,13 +63,13 @@
     
 }
 
-.niggaintro h1 {
+.intro h1 {
     font-size: 50px;
     margin-left: 80px;
     
 }
 
-.niggaintro p1 {
+.intro p1 {
     font-size: 20px;
     margin-left: 85px;
 }
